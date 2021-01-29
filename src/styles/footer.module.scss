@@ -1,0 +1,19 @@
+.hide{
+    display: flex;
+    justify-content: space-between;
+    width: 424px;
+    background-color: white;
+    padding: 10px;
+    border: 1px solid rgba(192, 192, 192, 0.589);
+}
+.btn{
+    border-radius: 2px;
+    border: 1px solid rgba(175, 47, 47, 0.2);
+    background-color: white;
+	font-style: inherit;
+	outline: none;
+}
+.btn:hover{
+    border-radius: 2px;
+    border: 1px solid rgba(175, 47, 47, 0.425);
+}

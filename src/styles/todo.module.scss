@@ -1,0 +1,44 @@
+.todo{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    width: 424px;
+    padding: 10px;
+    height: auto;
+    border: 1px solid rgba(192, 192, 192, 0.589);
+    border-bottom:none ;
+    
+}
+.todoItem{
+    list-style-type: none;
+}
+.leftPart{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+.textContent{
+    width: 352px;
+    overflow-wrap: break-word;
+}
+.completed{
+    text-decoration: line-through;
+    color: silver
+}
+.iconCheck{
+    height: 30px;
+    width: 40px ;
+    color: #e6e6e6;
+    padding-right: 12px;
+}
+.checkCompleted{
+    color: rgba(0, 128, 0, 0.685);
+}
+.removeIcon{
+    height: 20px;
+    color: #e6e6e6;
+}
+.removeIcon:hover{
+    color: rgba(141, 2, 2, 0.685);
+} 
